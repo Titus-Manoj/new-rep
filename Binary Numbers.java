@@ -18,6 +18,7 @@ import java.util.Scanner;
             		count++;
             }
             System.out.println(count);
+     
             	
             	
           
