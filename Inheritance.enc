@@ -1,7 +1,7 @@
 class Student(Person):
 	def __init__(self,firstName,lastName,idNumber,scores):
-		Person.__init__(self,firstName,lastName,idNumber)
-		self.scores=scores
+		Person.__init__(self,firstName,lastName,idNumber,scores)
+		
 	def calculation(self):
 		sum=0
 		
