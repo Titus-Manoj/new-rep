@@ -10,14 +10,14 @@ import java.util.Scanner;
     {
             Scanner sc = new Scanner(System.in);
             int n = sc.nextInt();
-            int rem,count=0;
+            int r,count=0;
             while(n>0){
-            	rem=n%2;
+            	r=n%2;
             	n=n/2;
-            	if(rem==1)
+            	if(r==1)
             		count++;
             }
-            System.out.print(count);
+            System.out.println(count);
             	
             	
           
